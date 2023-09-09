@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import web from '../Images/web.png';
 import '../Css/Services.css';
 // import JSON from '../json/data.json';
