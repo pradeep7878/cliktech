@@ -2,7 +2,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 main{
-    background-color: #91fcea;
+    background:linear-gradient(to right,#20f1ce,#b7f7ec,#20f1ce);
     display: flex;
     justify-content: center;
 }
