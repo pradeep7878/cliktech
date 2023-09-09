@@ -1,0 +1,25 @@
+{
+    "posts" : [
+
+        {
+            "title" : "Web Developement",
+            "img"   : "",
+            "description" : "Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.",
+            "button" : "Read More"
+        },
+
+        {
+            "title" : "Graphic Designing",
+            "img"   : "",
+            "description" : "Graphic design is a profession, academic discipline and applied art whose activity consists in projecting visual communications intended to transmit specific messages to social groups, with specific objectives. Graphic design is an interdisciplinary branch of design and of the fine arts.",
+            "button" : "Read More"  
+        },
+
+        {
+            "title"  : "SEO",
+            "description" : "Search engine optimization is the process of improving the quality and quantity of website traffic to a website or a web page from search engines. SEO targets unpaid traffic rather than direct traffic or paid traffic. ",
+            "button" : "Read More"
+        }
+
+    ]
+}

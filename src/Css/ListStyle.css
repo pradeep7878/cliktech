@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(180, 12, 180);
+}
+.container-flex{
+    width: 80%;
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.logo{
+    margin: 0 1rem;
+}
+.list-item{
+    margin: 0 1rem;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons .icon{
+    margin: 0px 0.8rem;
+    font-size: 1em;
+    color: white;
+}
+.icons .icon:hover{
+    margin: 0px 0.8rem;
+    font-size: 1em;
+    color: black;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+
+@media screen and (max-width){
+    html{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:940px){
+    html{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:770px){
+   .container-flex{
+    display: flex;
+    flex-direction: column;
+   }
+   .logo{
+    width: 60px;
+   }
+   .list{
+    display: flex;
+    flex-direction: column;
+    margin: 13px 0;
+   }
+   .list-item{
+    margin: 4px 0;
+   }
+   .icons{
+    margin: 10px 0;
+   }
+}
+
+@media (min-width:770px) and (max-width:840px){
+    .icons .icon{
+        font-size: 12px;
+        margin: 0 6px !important;
+    }
+}
+
+@media screen and (max-width:500px){
+    html{
+        font-size: 12px;
+    }
+    .icon{
+        font-size: 15px !important;
+    }
+    .logo{
+        width: 50px;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+        margin: 12px ;
+    }
+    .list-item{
+        margin: 4px 0;
+       }
+       .icons{
+        margin: 6px 0;
+       }
+}

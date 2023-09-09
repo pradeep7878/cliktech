@@ -1,0 +1,78 @@
+.services *{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.services h2{
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.services .container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow:3px 3px 5px rgba(0,0,0,0.1),
+               inset 3px 3px 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+.card h3{
+    font-size: 1.4rem;
+    margin: 1.5rem 0;
+}
+.card img{
+    width: 80%;
+    margin: 0 auto;
+}
+.card p{
+    margin: 1rem 0;
+    padding: 0 1rem;
+}
+.card button{
+    width: 30%;
+    margin: .8rem auto;
+    display: block;
+    padding: .5rem .3rem;
+    border-radius: .4rem;
+    font-size: .8rem;
+    background-color:  rgb(180, 12, 180);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+
+@media screen and (max-width:960px){
+    .services .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 40%;
+        margin: 1rem 1rem;
+    }
+}
+
+@media screen and (max-width:770px){
+    .services .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .card{
+        width: 70%;
+        margin: 1rem 1rem;
+    }
+}

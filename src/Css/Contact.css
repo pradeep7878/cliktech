@@ -1,0 +1,33 @@
+/* CONTACT--------------------------------------- */
+
+.container-fluid{
+    padding: 0;
+}
+.contact {
+    background-color: rgba(209, 117, 248, 0.547);
+    padding: 3rem 4rem;
+}
+.contact h1,h2{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 3rem;
+}
+.contact .row input,
+.contact .row textarea{
+    margin: 1.5rem;
+    width: 90%;
+}
+.contact .btn{
+    margin: 0.3rem 1.5rem;
+
+}
+
+.error{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(229, 143, 112);
+}
+

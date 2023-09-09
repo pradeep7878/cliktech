@@ -1,0 +1,50 @@
+footer *{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+}
+footer .icons{
+    margin-right: 1rem;
+    font-size: 1.2rem !important;
+}
+footer .icons .icon{
+    margin: 0px 0.5rem;
+    font-size: 1em;
+}
+footer .container-flex{
+    padding: 0.7rem;
+}
+footer .line hr{
+    background-color: green;
+    width: 100%;
+    margin: 10px 0;
+}
+footer .line{
+    width: 400px;
+}
+footer .footer-content{
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:960px){
+
+    footer .line{
+        width: 250px;
+        }
+}
+@media screen and (max-width:770px){
+    .icons{
+        padding: 0.1rem;
+    }
+    footer .line{
+        width: 250px;
+        margin-bottom: 15px;
+        }
+}
